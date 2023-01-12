@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/main.css">
+    <title>Karmine matches</title>
+</head>
+<body>
+    <header class="border-bottom mb-5">
+        <h1>Karmine Results</h1>
+    </header>
+
+    <main class="container-fluid px-5">
+<div class="column">
+    <div id="matchbox" class="d-flex text-center">
+        <div id="bo"></div>
+            <div class="col-5 d-flex teambox justify-content-end">
+                <div id="team1" class="col-8 align-self-center fw-bolder fs-4"></div>
+                <img id="team1img" src="" alt="Logo de l'équipe" class="d-block col-4 align-self-center"/>
+                        
+            </div>
+            <div class="col-2 align-self-center">
+                <div id="league" class="fw-bold fs-3"></div>
+                <div class="d-flex justify-content-center py-5">
+                    <div id="team1score" class="px-3"></div>
+                    <span>/</span>
+                    <div id="team2score" class="px-3"></div>
+                </div>
+                <div class="text-uppercase bg bg-danger d-inline px-2 text-light">terminé</div>
+            </div>
+            <div class="col-5 d-flex teambox justify-content-start">
+                    <img id="team2img" src="" alt="Logo de l'équipe" class="d-block col-4 align-self-center"/>
+                        <div id="team2"  class="col-8 align-self-center fw-bolder fs-4"></div>
+            </div>
+    </div>
+</div>
+    </main>
+
+    <script src="assets/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
